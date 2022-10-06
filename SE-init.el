@@ -26,8 +26,8 @@
 (require 'SE-essentials)
 (require 'SE-cleanUI)
 (require 'SE-visuals)
+(require 'SE-org)
 (require 'SE-keybinds)
 (require 'SE-ide)
-(require 'SE-org)
 
 (provide 'SE-init)

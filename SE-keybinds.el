@@ -12,5 +12,7 @@
 (global-set-key (kbd "<M-up>") 'windmove-up)
 (global-set-key (kbd "<M-down>") 'windmove-down)
 
+;; Org refresh latex
+(global-set-key (kbd "C-=") 'org-latex-preview)
 
 (provide 'SE-keybinds)

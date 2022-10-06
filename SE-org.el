@@ -48,11 +48,6 @@
   (visual-fill-column-mode 1)
   (text-scale-set 2))
 
-(use-package org-bullets
-  :after org
-  :hook (org-mode . org-bullets-mode)
-  )
-
 (use-package visual-fill-column
   :hook (org-mode . SE/org-mode-visual-fill)
   )
@@ -60,5 +55,11 @@
 (org-babel-do-load-languages
  'org-babel-load-languages
  '((latex . t)))
+
+(setq org-latex-create-formula-image-program 'dvipng)
+
+(setq org-format-latex-options (plist-put org-format-latex-options :scale 1.5))
+
+(setq org-support-shift-select 1)
 
 (provide 'SE-org)
