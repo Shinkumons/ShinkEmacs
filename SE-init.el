@@ -27,7 +27,7 @@
 (require 'SE-cleanUI)
 (require 'SE-visuals)
 (require 'SE-keybinds)
-(require 'Se-ide)
+(require 'SE-ide)
 
 
 (provide 'SE-init)
