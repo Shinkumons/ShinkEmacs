@@ -23,6 +23,9 @@
 ;; symbols on the left of the buffer
 (set-fringe-mode 10)
 
+;; hightlight current line
+(global-hl-line-mode t)
+
 ;; disable toolbar
 (tool-bar-mode -1)
 
