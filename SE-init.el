@@ -28,6 +28,6 @@
 (require 'SE-visuals)
 (require 'SE-keybinds)
 (require 'SE-ide)
-
+(require 'SE-org)
 
 (provide 'SE-init)

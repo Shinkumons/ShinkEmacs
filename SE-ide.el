@@ -104,6 +104,12 @@
 (tree-sitter-require 'python)
 (add-hook 'prog-mode 'tree-sitter-hl-mode)
 
+(latex-preview-pane-enable)
+(setq exec-path (append exec-path '("C:\Users\shinke\AppData\Local\Programs\MiKTeX\miktex\bin\x64")))
+
+
+(global-hl-line-mode t)
+
 (color-identifiers-mode 1)
 
 (provide 'SE-ide)

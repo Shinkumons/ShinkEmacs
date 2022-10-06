@@ -56,3 +56,9 @@
 (use-package visual-fill-column
   :hook (org-mode . SE/org-mode-visual-fill)
   )
+
+(org-babel-do-load-languages
+ 'org-babel-load-languages
+ '((latex . t)))
+
+(provide 'SE-org)
